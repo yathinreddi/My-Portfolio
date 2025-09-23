@@ -19,6 +19,7 @@ import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
+import header_bg_color2 from './header-bg-color2.png';
 import moon_icon from './moon_icon.png';
 import sun_icon from './sun_icon.png';
 import arrow_icon from './arrow-icon.png';
@@ -27,10 +28,10 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
-import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
-import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
+import certificates_icon1 from './certificates_icon1.png';
+import certificates_icon2 from './certificates_icon2.png';
+import certificates_icon3 from './certificates_icon3.png';
+import certificates_icon4 from './certificates_icon4.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -58,6 +59,7 @@ export const assets = {
     download_icon,
     hand_icon,
     header_bg_color,
+    header_bg_color2,
     moon_icon,
     sun_icon,
     arrow_icon,
@@ -66,10 +68,10 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon,
+    certificates_icon1,
+    certificates_icon2,
+    certificates_icon3,
+    certificates_icon4,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -78,19 +80,19 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Food Delivery App',
+        description: 'Full Stack Development',
+        bgImage: '/work-1.png', link: 'https://github.com/yathinreddi/Food-Delivery-App'
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/work-2.png', link: ''
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'ChatGPT AI Clone',
+        description: 'AI frontend development',
+        bgImage: '/work-3.png', link: ''
     },
     {
         title: 'UI/UX designing',
@@ -101,34 +103,40 @@ export const workData = [
 
 export const serviceData = [
     { 
-        icon: assets.web_icon, 
-        title: 'Web design', 
-        description: 'Web development is the process of building, programming...', link: '' },
+        icon: assets.certificates_icon1, 
+        title: 'Wipro TalentNext - Java Full Stack', 
+        description: 'Course Duration: 5 months | Certificate of completion:| October 28, 2024. ', 
+        link: 'https://cert.diceid.com/cid/D10FfaOXIw?verify=true' },
     { 
-        icon: assets.mobile_icon, 
-        title: 'Mobile app', 
-        description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+        icon: assets.certificates_icon2, 
+        title: 'Data Analytics Intern', 
+        description: 'Course Duration: 4 Weeks | Certificate of Compeletion: August 25, 2025 .', link: '' },
     { 
-        icon: assets.ui_icon, 
-        title: 'UI/UX design', 
-        description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+        icon: assets.certificates_icon3, 
+        title: 'Salesforce Developer Virtual Internship', 
+        description: 'Duration: 8 Weeks | Certificate of completion:|January 16, 2024.',
+        link: ' https://smartinternz.com/internships/salesforce_certificates/50cdf52b4612bd5b419e775ddfc08314' },
     { 
-        icon: assets.graphics_icon, 
-        title: 'Graphics design', 
-        description: 'Creative design solutions to enhance visual communication...', link: '' },
+        icon: assets.certificates_icon4, 
+        title: 'Salesforce Administrator Virtual Internship', 
+        description: 'Duration: 8 Weeks | Certificate of completion:|July 16, 2024.', 
+        link: 'https://skillwallet.smartinternz.com/internships/salesforce_certificates/5e02b868a91671f9140a41f3946f33cb' },
+    
+    
 ]
 
 export const infoList = [
     {
         icon: assets.code_icon, iconDark: assets.code_icon_dark, 
-        title: 'Skills', 
+        title: 'Tech Stack', 
+        
         description: 'Programming languages, Web development, Technical skills',
-        moreInfo: "Programming languages - Java, Python, C, SQL.<<< Web development - HTML, CSS, Javascript, Tailwind CSS.<<<<<<<<<<<<<< Technical skills - Data structures and algorithms" },
+        moreInfo: "Programming languages -| Java, Python, C, SQL.| Web development -| HTML, CSS, Javascript, Tailwind CSS. | Technical skills -| Data structures and algorithms" },
     {
         icon: assets.edu_icon, iconDark: assets.edu_icon_dark, 
         title: 'Education', 
         description: 'B.Tech in Electronics & Communication engineering',
-        moreInfo: "Mahatma Gandhi Institute of Technology - B.Tech - 7.3 CGPA" },
+        moreInfo: "Mahatma Gandhi Institute of Technology. | B.Tech - 7.3 CGPA | Vijaya Ratna Juniour College. | Intermediate - 91.4 % | Vijaya Ratna Hihg School. | 10th Class - 9.7 CGPA" },
     { 
         icon: assets.project_icon, iconDark: assets.project_icon_dark, 
         title: 'Achievements & Others ', 
@@ -137,5 +145,9 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    { icon: assets.vscode, name: "VS Code" },
+    { icon: assets.firebase, name: "Firebase" },
+    { icon: assets.mongodb, name: "MongoDB" },
+    { icon: assets.figma, name: "Figma" },
+    { icon: assets.git, name: "Git" }
 ];
