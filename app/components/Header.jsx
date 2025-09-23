@@ -18,7 +18,7 @@ const Header = () => {
        whileInView={{y: 0, opacity: 1}}
        transition={{duration: 0.6, delay:0.3}}
        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
-       Hi! I'm Yathin Reddy <Image src={assets.hand_icon} alt='' className='w-6 mb-1'/>
+       Hi! I'm Yathin Kumar Reddy <Image src={assets.hand_icon} alt='' className='w-6 mb-1'/>
       </motion.h3>
 
       <motion.h1 
@@ -41,17 +41,19 @@ const Header = () => {
         initial={{y: 30, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay:0.7}}
-        href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
-            Contact me<Image src={assets.right_arrow_white} alt='' className='w-4'/>
+        href="/Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black'>
+            My Resume<Image src={assets.download_icon} alt='' className='w-4'/>
         </motion.a>
-
+        
         <motion.a 
         initial={{y: 30, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay:0.7}}
-        href="/Yathin-Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black'>
-            My resume<Image src={assets.download_icon} alt='' className='w-4'/>
+        href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
+            Contact me<Image src={assets.right_arrow_white} alt='' className='w-4'/>
         </motion.a>
+
+        
       </div>
     </div>
   )
