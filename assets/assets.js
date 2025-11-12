@@ -131,12 +131,12 @@ export const infoList = [
         title: 'Tech Stack', 
         
         description: 'Programming languages, Web development, Technical skills',
-        moreInfo: "Programming languages -| Java, Python, C, SQL.| Web development -| HTML, CSS, Javascript, Tailwind CSS. | Technical skills -| Data structures and algorithms" },
+        moreInfo: "Programming languages -| Java, C, SQL.| Web development -| HTML, CSS, Javascript. | Technical skills -| Data structures and algorithms" },
     {
         icon: assets.edu_icon, iconDark: assets.edu_icon_dark, 
         title: 'Education', 
         description: 'B.Tech in Electronics & Communication engineering',
-        moreInfo: "Mahatma Gandhi Institute of Technology. | B.Tech - 7.3 CGPA | Vijaya Ratna Juniour College. | Intermediate - 91.4 % | Vijaya Ratna Hihg School. | 10th Class - 9.7 CGPA" },
+        moreInfo: "Mahatma Gandhi Institute of Technology. | B.Tech - 7.43 CGPA | Vijaya Ratna Juniour College. | Intermediate - 91.4 % | Vijaya Ratna Hihg School. | 10th Class - 9.7 CGPA" },
     { 
         icon: assets.project_icon, iconDark: assets.project_icon_dark, 
         title: 'Achievements & Others ', 
@@ -146,8 +146,9 @@ export const infoList = [
 
 export const toolsData = [
     { icon: assets.vscode, name: "VS Code" },
-    { icon: assets.firebase, name: "Firebase" },
-    { icon: assets.mongodb, name: "MongoDB" },
+    { icon: assets.firebase, name: "GitHub" },
+    { icon: assets.mongodb, name: "MS Excel" },
     { icon: assets.figma, name: "Figma" },
     { icon: assets.git, name: "Git" }
 ];
+
