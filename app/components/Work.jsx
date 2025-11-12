@@ -59,7 +59,7 @@ const Work = (isDarkMode) => {
             ))}
         </motion.div>
 
-      {/*<motion.a 
+        {/*<motion.a 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}} 
         transition={{duration: 0.5, delay: 0.6 }}
@@ -71,5 +71,3 @@ const Work = (isDarkMode) => {
 }
 
 export default Work
-
-
